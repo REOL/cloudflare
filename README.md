@@ -3,9 +3,21 @@ Cloudflare
 
 This extension implements a few functionalities of the Cloudflare API v1. Even if this API is deprecated and it is recommended to uyse the API v4, it is (and will be) still supported and allows the use of GET requests only. This extension in its current version allows a user to retrieve the main information about a specific domain registered on a Cloudflare account, add a new domain (or any DNS record) or delete a subdomain (or any DNS record except main domains, for security reasons).
 
+## Installation
+
+Using the Cloudflare client with composer is quite easy. Just add the following to your composer.json file:
+
+```php
+    "require-dev": {
+        ...
+        "reolservices/cloudflare": "*",
+        ...
+    }
+```
+
 ## Usage
 
-Using the Cloudflare client with composer is quite easy. Just add reolservices/cloudflare to your projects requirements. You will need to add your Cloudflare credentials to your configuration as follows:
+Just add reolservices/cloudflare to your projects requirements. You will need to add your Cloudflare credentials to your configuration as follows:
 
 ```php
 

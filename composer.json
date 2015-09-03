@@ -1,7 +1,7 @@
 {
     "name": "reolservices/cloudflare",
     "type": "library",
-    "description": "A Cloudflare library, used to communicate with the CloudFlare API V1. It implements all the functions that are currently supported by the CloudFlare API V1 to manage DNS records. More details about the CloudFlare API can be found at https://www.cloudflare.com/docs/client-api.html",
+    "description": "A Yii2 extension to communicate with CloudFlare API V1 and manage DNS records",
     "keywords": ["cloudflare v1"],
     "license": "LGPL-3.0+",
     "support": {
