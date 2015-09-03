@@ -313,7 +313,18 @@ class Client
         return $jsonResult;
     }
 
-    private function handleError($result, $message, $error_code)
+    /**
+     * This function is used for exception handling
+     *
+     * @param string $result The result of the API call from the Cloudflare API (if we're there, the $result is "error" in most cases)
+     * @param string $message The error message returned by the Cloudflare API
+     * @param string $error_code An additional error code in particular situations
+     * @throws AuthenticationException
+     * @throws InvalidInputException
+     * @throws MaxAPICallException
+     * @throws APIException
+     */
+    private function handleError($result, $message, $error_code = null)
     {
         if ($error_code != null) {
             switch ($error_code) {
