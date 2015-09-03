@@ -10,7 +10,7 @@
     "authors": [
         {
             "name": "The ReolServices Team",
-            "email": "rtilte@reol.com",
+            "email": "rtilte@reol.com"
         }
     ],
     "autoload": {
