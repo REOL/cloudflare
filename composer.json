@@ -19,5 +19,5 @@
     "require": {
         "yiisoft/yii2": "*",
         "php": ">=5.3.2"
-    },
+    }
 }
