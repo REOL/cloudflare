@@ -15,6 +15,8 @@ Using the Cloudflare client with composer is quite easy. Just add the following 
     }
 ```
 
+Then run composer update to get the extension integrated to your application.
+
 ## Usage
 
 Just add reolservices/cloudflare to your projects requirements. You will need to add your Cloudflare credentials to your configuration as follows:
